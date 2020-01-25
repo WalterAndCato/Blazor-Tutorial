@@ -1,0 +1,26 @@
+﻿@page "/"
+@using System.Runtime.CompilerServices
+
+
+<div>
+ <h3>Movies</h3>
+ <MoviesList Movies="movies">
+ </MoviesList>
+</div>
+
+@code{
+
+ private List<Movie> movies;
+ protected override async Task OnInitializedAsync()
+ {
+
+  await Task.Delay(3000);
+  movies = new List<Movie>()
+ {
+  new Movie() {Title = "<b>Krieg der Sterne</b>", ReleaseDate = new DateTime(1977, 7, 4)},
+  new Movie() {Title = "<i>Das Imperium schlägt zurück</i>", ReleaseDate = new DateTime(1977, 7, 4)},
+  new Movie() {Title = "Rückkehr der Jedi-Ritter", ReleaseDate = new DateTime(1977, 7, 4)},
+ };
+
+ }
+}
