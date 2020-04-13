@@ -45,6 +45,7 @@
         </e>
         <e p="GenericList.razor" t="Include" />
         <e p="Helpers" t="Include">
+          <e p="IJSRuntimeExtensionMethods.cs" t="Include" />
           <e p="IRepository.cs" t="Include" />
           <e p="RepositoryInMemory.cs" t="Include" />
           <e p="StringUtilities.cs" t="Include" />
@@ -81,6 +82,9 @@
           <e p="site.css" t="Include" />
         </e>
         <e p="favicon.ico" t="Include" />
+        <e p="js" t="Include">
+          <e p="Utilities.js" t="Include" />
+        </e>
       </e>
     </e>
   </component>
