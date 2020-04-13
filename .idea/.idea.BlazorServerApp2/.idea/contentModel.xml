@@ -29,6 +29,7 @@
       <e p="Pages" t="Include">
         <e p="_Host.cshtml" t="Include" />
         <e p="Counter.razor" t="Include" />
+        <e p="Counter.razor.cs" t="Include" />
         <e p="Error.razor" t="Include" />
         <e p="FetchData.razor" t="Include" />
         <e p="Index.razor" t="Include" />
@@ -37,12 +38,15 @@
       <e p="Properties" t="Include">
         <e p="launchSettings.json" t="Include" />
       </e>
+      <e p="Services.cs" t="Include" />
       <e p="Shared" t="Include">
         <e p="Entities" t="Include">
           <e p="Movie.cs" t="Include" />
         </e>
         <e p="GenericList.razor" t="Include" />
         <e p="Helpers" t="Include">
+          <e p="IRepository.cs" t="Include" />
+          <e p="RepositoryInMemory.cs" t="Include" />
           <e p="StringUtilities.cs" t="Include" />
         </e>
         <e p="IndividualMovie.razor" t="Include" />

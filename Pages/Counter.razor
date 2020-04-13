@@ -1,34 +1,14 @@
 ﻿@page "/counter"
 
+
 <h1>Counter</h1>
 
 <p>Current count: @currentCount</p>
+<p>Singleton count: @singleton.Value</p>
+<p>Transient count: @transient.Value</p>
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
 <input type="number" @bind="@currentCount" />
 
 <MoviesList Movies="movies"></MoviesList>
-
-@code {
-    private int currentCount = 0;
-
-    private void IncrementCount()
-    {
-        currentCount++;
-    }
-    
-    private List<Movie> movies;
- 
-    protected override void OnInitialized()
-    {
-        base.OnInitialized();
-        movies = new List<Movie>
-        {
-            new Movie() {Title = "<b>Krieg der Sterne Reloaded</b>", ReleaseDate = new DateTime(1977, 7, 4)},
-            new Movie() {Title = "<i>Das Imperium schlägt zurück</i>", ReleaseDate = new DateTime(1977, 7, 4)},
-            new Movie() {Title = "Rückkehr der Jedi-Ritter", ReleaseDate = new DateTime(1977, 7, 4)},
-        };
-    }
-}
-}
