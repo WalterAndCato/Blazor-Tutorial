@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using BlazorServerApp2.Shared;
 using BlazorServerApp2.Shared.Entities;
 using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
@@ -11,7 +12,8 @@ namespace BlazorServerApp2.Pages
     {
         [Inject] private SingletonService singleton { get; set; }
         [Inject] private TransientService transient { get; set; }
-        
+        [CascadingParameter] public MainLayout.AppState AppState { get; set; }
+
         private int currentCount = 0;
         private static int currentCountStatic = 0;
 

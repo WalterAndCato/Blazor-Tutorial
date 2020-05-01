@@ -2,6 +2,8 @@
 @using System.Runtime.CompilerServices
 @inject IRepository Repository;
 
+<p style="color: @AppState.Color; font-size: @AppState.Size;">Nur ein Test</p>
+
 <div>
  <h3>Movies</h3>
  <MoviesList Movies="movies">
@@ -10,6 +12,7 @@
 
 @code{
 
+ [CascadingParameter] public MainLayout.AppState AppState { get; set; }
  private List<Movie> movies;
  protected override async Task OnInitializedAsync()
  {
