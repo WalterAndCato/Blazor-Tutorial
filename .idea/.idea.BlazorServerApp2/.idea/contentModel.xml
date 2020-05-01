@@ -40,6 +40,7 @@
       </e>
       <e p="Services.cs" t="Include" />
       <e p="Shared" t="Include">
+        <e p="Confirmation.razor" t="Include" />
         <e p="Entities" t="Include">
           <e p="Movie.cs" t="Include" />
         </e>

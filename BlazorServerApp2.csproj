@@ -8,6 +8,7 @@
       <Compile Update="Pages\Counter.razor.cs">
         <DependentUpon>Counter.razor</DependentUpon>
       </Compile>
+      <Compile Remove="Shared\Confirmation.cs" />
     </ItemGroup>
 
 </Project>

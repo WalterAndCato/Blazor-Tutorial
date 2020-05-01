@@ -51,3 +51,5 @@
 /Users/petersteinkamp/RiderProjects/BlazorServerApp2/obj/Debug/netcoreapp3.1/Razor/Shared/IndividualMovie.razor.g.cs
 /Users/petersteinkamp/RiderProjects/BlazorServerApp2/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/GenericList.razor.g.cs
 /Users/petersteinkamp/RiderProjects/BlazorServerApp2/obj/Debug/netcoreapp3.1/Razor/Shared/GenericList.razor.g.cs
+/Users/petersteinkamp/RiderProjects/BlazorServerApp2/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/Confirmation.razor.g.cs
+/Users/petersteinkamp/RiderProjects/BlazorServerApp2/obj/Debug/netcoreapp3.1/Razor/Shared/Confirmation.razor.g.cs
