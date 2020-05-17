@@ -9,6 +9,9 @@
         <DependentUpon>Counter.razor</DependentUpon>
       </Compile>
       <Compile Remove="Shared\Confirmation.cs" />
+      <Compile Remove="Services.cs" />
+      <Compile Remove="Pages\CustomNotFound.cshtml.cs" />
+      <Compile Remove="Pages\CustomNotFount.razor.cshtml.cs" />
     </ItemGroup>
 
 </Project>

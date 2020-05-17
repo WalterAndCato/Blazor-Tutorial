@@ -32,15 +32,28 @@
         <e p="Counter.razor.cs" t="Include" />
         <e p="Error.razor" t="Include" />
         <e p="FetchData.razor" t="Include" />
+        <e p="Genres" t="Include">
+          <e p="CreateGenre.razor" t="Include" />
+          <e p="EditGenre.razor" t="Include" />
+        </e>
         <e p="Index.razor" t="Include" />
+        <e p="Movies" t="Include">
+          <e p="CreateMovie.razor" t="Include" />
+          <e p="DetailsMovie.razor" t="Include" />
+          <e p="EditMovie.razor" t="Include" />
+        </e>
+        <e p="People" t="Include">
+          <e p="CreatePerson.razor" t="Include" />
+          <e p="EditPerson.razor" t="Include" />
+        </e>
       </e>
       <e p="Program.cs" t="Include" />
       <e p="Properties" t="Include">
         <e p="launchSettings.json" t="Include" />
       </e>
-      <e p="Services.cs" t="Include" />
       <e p="Shared" t="Include">
         <e p="Confirmation.razor" t="Include" />
+        <e p="CustomNotFound.razor" t="Include" />
         <e p="Entities" t="Include">
           <e p="Movie.cs" t="Include" />
         </e>
@@ -63,6 +76,7 @@
             <e p="bootstrap.min.css" t="Include" />
             <e p="bootstrap.min.css.map" t="Include" />
           </e>
+          <e p="custom.css" t="Include" />
           <e p="open-iconic" t="Include">
             <e p="font" t="Include">
               <e p="css" t="Include">

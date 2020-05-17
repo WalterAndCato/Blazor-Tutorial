@@ -10,31 +10,12 @@ namespace BlazorServerApp2.Pages
 {
     public partial class Counter
     {
-        [Inject] private SingletonService singleton { get; set; }
-        [Inject] private TransientService transient { get; set; }
-        [CascadingParameter] public MainLayout.AppState AppState { get; set; }
 
         private int currentCount = 0;
-        private static int currentCountStatic = 0;
 
         private void IncrementCount()
         {
-            currentCountStatic++;
             currentCount++;
-            transient.Value = currentCount;
-            singleton.Value = currentCount;
-        }
-
-        [JSInvokable]
-        public static Task<int> GetCurrentCount()
-        {
-            return Task.FromResult(currentCountStatic);
-        }
-        
- 
-        protected override void OnInitialized()
-        {
-            base.OnInitialized();
         }
     }
 }

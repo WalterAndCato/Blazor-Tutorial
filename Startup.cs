@@ -30,9 +30,7 @@ namespace BlazorServerApp2
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
-
-            services.AddSingleton<SingletonService>();
-            services.AddTransient<TransientService>();
+            
             services.AddTransient<IRepository, RepositoryInMemory>();
         }
 
