@@ -35,6 +35,7 @@
         <e p="Genres" t="Include">
           <e p="CreateGenre.razor" t="Include" />
           <e p="EditGenre.razor" t="Include" />
+          <e p="IndexGenres.razor" t="Include" />
         </e>
         <e p="Index.razor" t="Include" />
         <e p="Movies" t="Include">
@@ -45,6 +46,7 @@
         <e p="People" t="Include">
           <e p="CreatePerson.razor" t="Include" />
           <e p="EditPerson.razor" t="Include" />
+          <e p="IndexPeople.razor" t="Include" />
         </e>
       </e>
       <e p="Program.cs" t="Include" />
