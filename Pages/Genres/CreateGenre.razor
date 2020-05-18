@@ -2,25 +2,15 @@
 
 <h3>Create Genre</h3>
 
-<EditForm Model="genre" OnValidSubmit="Create">
-    <DataAnnotationsValidator></DataAnnotationsValidator>
-    <div class="form-group">
-        <label>Name:</label>
-        <div>
-            <InputText Class="form-control" @bind-Value="@genre.Name"/>
-            <ValidationMessage For="@(() => genre.Name)"></ValidationMessage>
-        </div>
-    </div>
-    <button class="btn btn-success" type="submit">Save changes</button>
-
-</EditForm> 
+<GenreForm Genre="genre" rueckmeldung="Create"></GenreForm>
 
 @code
 {
     private Genre genre = new Genre();
 
-    private void Create()
+    public void Create()
     {
+        Console.WriteLine("Create method");
         Console.WriteLine(genre.Name);
     }
 }

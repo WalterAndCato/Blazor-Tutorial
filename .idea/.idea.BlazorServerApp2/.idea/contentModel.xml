@@ -35,6 +35,7 @@
         <e p="Genres" t="Include">
           <e p="CreateGenre.razor" t="Include" />
           <e p="EditGenre.razor" t="Include" />
+          <e p="GenreForm.razor" t="Include" />
           <e p="IndexGenres.razor" t="Include" />
         </e>
         <e p="Index.razor" t="Include" />

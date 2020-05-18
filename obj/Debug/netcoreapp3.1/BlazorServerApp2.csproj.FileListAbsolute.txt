@@ -73,3 +73,5 @@
 /Users/petersteinkamp/RiderProjects/BlazorServerApp2/obj/Debug/netcoreapp3.1/Razor/Pages/Genres/IndexGenres.razor.g.cs
 /Users/petersteinkamp/RiderProjects/BlazorServerApp2/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/People/IndexPeople.razor.g.cs
 /Users/petersteinkamp/RiderProjects/BlazorServerApp2/obj/Debug/netcoreapp3.1/Razor/Pages/People/IndexPeople.razor.g.cs
+/Users/petersteinkamp/RiderProjects/BlazorServerApp2/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Genres/GenreForm.razor.g.cs
+/Users/petersteinkamp/RiderProjects/BlazorServerApp2/obj/Debug/netcoreapp3.1/Razor/Pages/Genres/GenreForm.razor.g.cs
