@@ -57,6 +57,7 @@
         <e p="Confirmation.razor" t="Include" />
         <e p="CustomNotFound.razor" t="Include" />
         <e p="Entities" t="Include">
+          <e p="Genre.cs" t="Include" />
           <e p="Movie.cs" t="Include" />
         </e>
         <e p="GenericList.razor" t="Include" />
