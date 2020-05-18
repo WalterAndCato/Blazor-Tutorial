@@ -1,8 +1,17 @@
-@page "/people/create"
+@page "/person/create"
+@using Microsoft.Extensions.Logging
 
 <h3>Create Person</h3>
 
+<PersonForm Person="Person" submitted="Create" />
+
 @code
 {
+    Person Person = new Person();
+
+    private void Create()
+    {
+        Console.WriteLine("Creating Person...");
+    }
     
 }

@@ -43,11 +43,14 @@
           <e p="CreateMovie.razor" t="Include" />
           <e p="DetailsMovie.razor" t="Include" />
           <e p="EditMovie.razor" t="Include" />
+          <e p="MovieFilter.razor" t="Include" />
         </e>
         <e p="People" t="Include">
           <e p="CreatePerson.razor" t="Include" />
           <e p="EditPerson.razor" t="Include" />
           <e p="IndexPeople.razor" t="Include" />
+          <e p="InputImg.razor" t="Include" />
+          <e p="PersonForm.razor" t="Include" />
         </e>
       </e>
       <e p="Program.cs" t="Include" />
@@ -60,6 +63,7 @@
         <e p="Entities" t="Include">
           <e p="Genre.cs" t="Include" />
           <e p="Movie.cs" t="Include" />
+          <e p="Person.cs" t="Include" />
         </e>
         <e p="GenericList.razor" t="Include" />
         <e p="Helpers" t="Include">
